@@ -1,2 +1,8 @@
-# vapor
-Datos de agua saturada y conversor de unidades [Python]
+# Vapor
+Vapor 0.3 es la primera versión estable y revisada.
+Posee datos de agua saturada como entalpías de vapor y líquido saturado, calor latente, calores específicos en función de la temperatura o presión de saturación, usando datos de la librería pyXSteam.
+También posee un conversor de unidades usando datos y funciones de la librería pint.
+Todo a través de menúes anidados. Especialmente diseñados para uso en la cátedra de Tecnología de la Energía Térmica - 4to Nivel - Ingeniería Química - Universidad Tecnológica Nacional, Facultad Regional Rosario - Argentina
+Versiones para Windows y Linux soportadas
+
+#ChemicalEngineering #IQ #IngenieriaQuimica

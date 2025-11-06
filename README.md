@@ -1,4 +1,4 @@
-# Vapor
+# Vapor Tecnológico IQ
 Vapor 0.3 es la primera versión estable y revisada.
 Posee datos de agua saturada como entalpías de vapor y líquido saturado, calor latente, calores específicos en función de la temperatura o presión de saturación, usando datos de la librería pyXSteam.
 También posee un conversor de unidades usando datos y funciones de la librería pint.

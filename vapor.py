@@ -4,6 +4,11 @@ import time
 import sys
 from pint import UnitRegistry
 
+# --------------------------------------------------------------------------------------
+# Vapor Tecnológico IQ 0.3
+# Creado por el Ing. Qco. Franco Jesús Méndez
+# Para uso universitario en la carrera de Ingeniería Química
+# Universidad Tecnológica Nacional - Facultad Regional Rosario
 # --------------------------------------------------------------
 # Sistemas de unidades
 
@@ -48,7 +53,7 @@ def tiempo():
 global steam_table, tempu, presu, tiemu, longu, potu, masu
 
 def MenuPrincipal():
-    print(CYAN + f"======== APLICACIÓN DE UTILIDADES PARA TECNOLOGÍA DE LA ENERGÍA TÉRMICA ========\n" + RESET +\
+    print(CYAN + f"======== APLICACIÓN DE UTILIDADES PARA INGENIERÍA QUÍMICA UTN FRRO ========\n" + RESET +\
     BRILLANTE + F"Elija opción:\n" \
     "1. Datos de Agua Saturada\n" \
     "2. Conversor de Unidades\n" \
@@ -174,7 +179,7 @@ def realizar_conversion(unidades_dict, categoria):
         print(f"Ocurrió un error inesperado: {e}")
 
 def resultados(tsat, psat, h_vapor, h_liq, landa, cpv, cpl):
-    print(BRILLANTE+f"="*15 + "RESULTADOS" + "="*15 +RESET)
+    print(BRILLANTE+f"=="*15 + "RESULTADOS" + "=="*15 +RESET)
     print(CYAN + f"1. Temperatura de Saturación: " + RESET + BRILLANTE + f"{tsat:.1f} {tempu}"+ RESET)
     print(CYAN + f"2. Presión de Saturación: "+ RESET + BRILLANTE + f"{psat:.2f} {presu}" + RESET)
     print(CYAN + f"3. Entalpia de vapor saturado H: "+ RESET + BRILLANTE + f"{h_vapor:.2f} {potu}/{masu}"+ RESET)
@@ -294,7 +299,8 @@ while pc:
     op = MenuPrincipal()
 
     if op ==0:
-        print(BRILLANTE + f"Gracias por usar la versión de prueba - Tecnología de la Energía Térmica - UTN FRRo"+ RESET)
+        print(BRILLANTE + f"Gracias por usar la versión de prueba - Ingeniería Química - UTN FRRo"+ RESET)
+        print(BRILLANTE + f"Creado por: Ing. Qco. Franco Jesús Méndez"+ RESET)
         time.sleep(1)
         pc = False
 
@@ -305,7 +311,7 @@ while pc:
                 limpiar_pantalla()
                 vaph20 = True
                 while vaph20:
-                    print(CYAN + f"========== Datos de vapor de agua - TET UTN FRRo: =========="+ RESET)
+                    print(CYAN + f"========== Datos de vapor de agua - IQ UTN FRRo: =========="+ RESET)
                     print("Hay que elegir el sistema de unidades con el que trabajar")
                     print(BRILLANTE + f"1. SI: m/kg/sec/°C/bar/W \n" 
                     "2. Sistema imperial: ft/lb/sec/°F/psi/btu\n" 
@@ -351,7 +357,7 @@ while pc:
                 conver = True
                 while conver:
                     limpiar_pantalla()
-                    print(CYAN + f"========== Conversión de Unidades - TET UTN FRRo: =========="+ RESET)
+                    print(CYAN + f"========== Conversión de Unidades - IQ UTN FRRo: =========="+ RESET)
                     print("Elegir categoria")
                     print(BRILLANTE + f"1. Potencia \n" \
                         "2. Temperatura\n"
@@ -413,7 +419,7 @@ while pc:
                             fyc = True
                             while fyc:
                                 limpiar_pantalla()
-                                print(CYAN + f"========== Conversión de Unidades de Fluidos y Caudales - TET UTN FRRo: =========="+ RESET)
+                                print(CYAN + f"========== Conversión de Unidades de Fluidos y Caudales - IQ UTN FRRo: =========="+ RESET)
                                 print("Elegir categoria")
                                 print(BRILLANTE + f"1. Caudal Volumétrico \n" \
                                 "2. Caudal Másico\n" \
@@ -457,7 +463,7 @@ while pc:
                             ubas = True
                             while ubas:
                                 limpiar_pantalla()
-                                print(CYAN + f"========== Conversión de Unidades Básicas - TET UTN FRRo: =========="+ RESET)
+                                print(CYAN + f"========== Conversión de Unidades Básicas - IQ UTN FRRo: =========="+ RESET)
                                 print("Elegir categoria")
                                 print(BRILLANTE + f"1. Longitud \n" \
                                 "2. Área\n" \
@@ -499,11 +505,4 @@ while pc:
                 menu = False
             case _:
                 OPCION_INVALIDA()
-
-
-
-
-
-
-
 

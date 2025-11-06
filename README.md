@@ -5,7 +5,7 @@ Vapor Tecnológico IQ
 Versión 0.4
 - Corrección de errores de menú
 - Cambio de notas internas
-- - Agregado de logo UTN ⵥ
+- Agregado de logo UTN ⵥ
 
 La versión 0.3 es la primera versión estable y revisada.
 

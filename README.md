@@ -1,5 +1,4 @@
 # Vapor Tecnológico IQ
-Vapor Tecnológico IQ 
 
 ## Changelog 
 Versión 0.4
